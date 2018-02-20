@@ -12,6 +12,36 @@ The Siri Remote has a built in accelerometer and gyroscope (source: [Apple TV te
 
 ![reading accelerometer data from Siri Remote](pictures/siri-remote-accelerometer.jpg)
 
+## Accessing Siri Remote Sensor Values
+The sensor values from the Siri Remote can be read via a change-handler or by directly reading the values. Before reading the values the Siri Remote has to be registered as a game controller. Please refer to the Big Nerd Ranch guide [tvOS Games, Part 1: Using the Game Controller Framework](https://www.bignerdranch.com/blog/tvos-games-part-1-using-the-game-controller-framework/) for details. 
+
+One thing I noticed when debugging in the simulator is that the Siri Remote is registered as an extended game pad. Therefore I only test my apps on real hardware.
+
+### Reading sensor values via Motion Handler
+```swift
+func registerMicroGamePadEvents(_ microGamePad: GCMicroGamepad) {
+
+    let motionHandler: GCMotionValueChangedHandler = { (motion: GCMotion) -> () in
+
+        print("acc:\(motion.userAcceleration)")
+        print("grav:\(motion.gravity)")
+        print("att:\(motion.attitude)")
+        print("rot:\(motion.rotationRate)")
+    }
+
+    gamePad?.motion?.valueChangedHandler = motionHandler
+}
+ ```
+ 
+ ### Reading sensor values directly
+ ```swift
+ if let motion = gamePad.motion {
+
+  player.position.x += CGFloat(motion.gravity.x) * 50
+  player.position.y += CGFloat(motion.gravity.y) * 50
+}
+```
+
 ## Why not Arduino/Raspberry Pi/...?
 My inital idea was to create the balance board with the Arduino and using some sensors. The arduino was connected to my Mac via cable. Cables suck. Should I fidget around with Bluetooth? Or send the data via WiFi? The sensor values need to be translated to some "actions" - like keyboard clicks - and how should I develop my games? Web based? Python? Do I always have to connect my Macbook to the TV? Phew... I could maybe use my phone instead - it is wireless - but stepping on a expensive phone? I need to write an app, send the data via websocket to an HTML5 game, websockets - serverside - node - hosting this - phew... Raspberry Pi - hm - Linux, Python, connecting hardware, writing games in PyGame maybe?! I am not that proficient in those things. Sure, all things are solveable, but I wanted it to be more a "software project" than a hardware hacking thing and I wanted to use my existing skills.
 

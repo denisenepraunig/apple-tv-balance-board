@@ -3,6 +3,7 @@ Create your own DIY balance board for Apple TV with Siri Remote.
 
 
 ![DIY Apple TV Balance Board in Action](pictures/balance-board-in-action.png)
+
 [See the DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
 
 ## Why?

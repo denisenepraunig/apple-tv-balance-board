@@ -1,5 +1,5 @@
 # Apple TV Balance Board
-Create your own DIY balance board for AppleTV with Siri Remote.
+Create your own DIY balance board for Apple TV with Siri Remote.
 
 ## Why?
 Several years ago I broke my leg and I trained with a balance board to get fit again. It was a good training but very boring, because of this I always wanted to create my own balance board game. The Wii balance board was a great idea, but using it was not really challenging for my muscles. It is posible to create an own [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/). It would have been also very unlikely that I would be able to create a game for the Wii balance board and I heard game console dev kits are really expensive and hard to get. 

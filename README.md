@@ -2,11 +2,11 @@
 Create your own DIY balance board for Apple TV with Siri Remote.
 
 ## Why?
-Several years ago I broke my leg and I trained with a balance board to get fit again. It was a good training but very boring, because of this I always wanted to create my own balance board game. The Wii balance board was a great idea, but using it was not really challenging for my muscles. It is posible to create an own [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/). It would have been also very unlikely that I would be able to create a game for the Wii balance board and I heard game console dev kits are really expensive and hard to get. 
+Several years ago I broke my leg and I trained with a balance board to get fit again. It was a good training but very boring, because of this I always wanted to create my own balance board games. The Wii balance board was a great piece of hardware, but using it was not really challenging for my muscles. It is posible to create an own [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/). It would have been very unlikely that I would be able to create a game for the Wii balance board and I heard game console dev kits are really expensive and hard to get. 
 
-I am a Swift developer, I wanted to use a real "challenging" balance board and own an Apple TV. Siri Remote has a built-in accelerometer and gyroscope so this was the perfect solution for me. My goal was that everyone can build his own balance board with the balance board that is sufficient for you, your fitness level and your budget. I am currently working on some Apple TV games that support my DIY Apple TV Balance Board but would also be playable with only the Siri Remote. I will tweet about the progress as [@denisenepraunig](https://twitter.com/denisenepraunig) and will update this repository with information about my games.
+I am a Swift developer, I wanted to use a real "challenging" balance board and own an Apple TV. Siri Remote has a built-in accelerometer and gyroscope so this was the perfect solution for me. My goal was that everyone can build her own balance board with the balance board that is sufficient for you, your fitness level and your budget. I am currently working on some Apple TV games that support my DIY Apple TV Balance Board but would also be playable with only the Siri Remote. I will tweet about the progress as [@denisenepraunig](https://twitter.com/denisenepraunig) and will update this repository with information about my games.
 
-In this repository I will provide some background information and some starter projects so that you can make your own balance board games.
+In this repository I will provide some background information and some starter projects so that you can make your own balance board games. A big shout out and thank you to [Paul Hudson](https://twitter.com/twostraws) how made it really easy get started with Apple TV and SpriteKit development: [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos), [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit).
 
 ## Instructions
 **I assume no liabiltiy when you accidentically step onto the plastic box, hurt yourself and break the Siri Remote!**
@@ -74,6 +74,9 @@ Back then I did not know that such a device existed - a balance board with games
 
 ## Link summary
 * [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/)
+* [Paul Hudson](https://twitter.com/twostraws)
+* [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos)
+* [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit)
 * [Apple TV technical specifications](https://support.apple.com/kb/SP724?locale=en_US)
 * [Game Controller Programming Guide](https://developer.apple.com/library/content/documentation/ServicesDiscovery/Conceptual/GameControllerPG/IncorporatingControllersintoYourDesign/IncorporatingControllersintoYourDesign.html#//apple_ref/doc/uid/TP40013276-CH4-SW6)
 * [WWDC talk about Siri Remote and Game Controllers](https://developer.apple.com/videos/play/techtalks-apple-tv/4/)

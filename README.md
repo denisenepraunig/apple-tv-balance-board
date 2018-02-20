@@ -51,6 +51,8 @@ func registerMicroGamePadEvents(_ microGamePad: GCMicroGamepad) {
 }
  ```
  
+ Have a look at the the [GCMotion documentation](https://developer.apple.com/documentation/gamecontroller/gcmotion).
+ 
  #### Reading sensor values directly
  ```swift
  if let motion = gamePad.motion {
@@ -59,6 +61,8 @@ func registerMicroGamePadEvents(_ microGamePad: GCMicroGamepad) {
   player.position.y += CGFloat(motion.gravity.y) * 50
 }
 ```
+
+Have a look at the [GCAcceleration documentation](https://developer.apple.com/documentation/gamecontroller/gcacceleration).
 
 ## Why ...?
 Here I want to share my thoughts on different solutions for building an own balance board.
@@ -83,4 +87,6 @@ Back then I did not know that such a device existed - a balance board with games
 * [Game Controller Programming Guide](https://developer.apple.com/library/content/documentation/ServicesDiscovery/Conceptual/GameControllerPG/IncorporatingControllersintoYourDesign/IncorporatingControllersintoYourDesign.html#//apple_ref/doc/uid/TP40013276-CH4-SW6)
 * [WWDC talk about Siri Remote and Game Controllers](https://developer.apple.com/videos/play/techtalks-apple-tv/4/)
 * [tvOS Games, Part 1: Using the Game Controller Framework](https://www.bignerdranch.com/blog/tvos-games-part-1-using-the-game-controller-framework/)
+* [GCMotion documentation](https://developer.apple.com/documentation/gamecontroller/gcmotion)
+* [GCAcceleration documentation](https://developer.apple.com/documentation/gamecontroller/gcacceleration)
 * [MFT Challange disc](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc)

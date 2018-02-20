@@ -6,7 +6,7 @@ Several years ago I broke my leg and I trained with a balance board to get fit a
 
 I am a Swift developer, I wanted to use a real "challenging" balance board and own an Apple TV. Siri Remote has a built-in accelerometer and gyroscope so this was the perfect solution for me. My goal was that everyone can build her own balance board with the balance board that is sufficient for you, your fitness level and your budget. I am currently working on some Apple TV games that support my DIY Apple TV Balance Board but would also be playable with only the Siri Remote. I will tweet about the progress as [@denisenepraunig](https://twitter.com/denisenepraunig) and will update this repository with information about my games.
 
-In this repository I will provide some background information and some starter projects so that you can make your own balance board games. A big shout out and thank you to [Paul Hudson](https://twitter.com/twostraws) how made it really easy get started with Apple TV and SpriteKit development: [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos), [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit).
+In this repository I will provide some background information and some starter projects so that you can make your own balance board games. A big shout out and thank you to [Paul Hudson](https://twitter.com/twostraws) how made it really easy get started with Apple TV and SpriteKit development: [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos) and [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit).
 
 ## Instructions
 **I assume no liabiltiy when you accidentically step onto the plastic box, hurt yourself and break the Siri Remote!**

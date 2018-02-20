@@ -1,6 +1,10 @@
 # Apple TV Balance Board
 Create your own DIY balance board for Apple TV with Siri Remote.
 
+
+![DIY Apple TV Balance Board in Action](pictures/balance-board-in-action.png)
+[See the DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
+
 ## Why?
 Several years ago I broke my leg and I trained with a balance board to get fit again. It was a good training but very boring, because of this I always wanted to create my own balance board games. The Wii balance board was a great piece of hardware, but using it was not really challenging for my muscles. It is posible to create an own [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/). It would have been very unlikely that I would be able to create a game for the Wii balance board and I heard game console dev kits are really expensive and hard to get. 
 
@@ -79,6 +83,7 @@ My inital idea was to create the balance board with the Arduino and using some s
 Back then I did not know that such a device existed - a balance board with games, but anyway, as I am a developer I wanted to make my own games and those [MFT balance boards](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc) are quite expensive. In Germany you can order a [version with bluetooth](https://www.amazon.de/MFT-Trainings-Therapieger%C3%A4t-Challenge-9005/dp/B01ENJARHE/ref=pd_sim_200_6?_encoding=UTF8&psc=1&refRID=XPPZQ1DP6JTNFASMPQ4Z) which has an app for iOS and Android.
 
 ## Link summary
+* [DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
 * [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/)
 * [Paul Hudson](https://twitter.com/twostraws)
 * [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos)

@@ -4,9 +4,9 @@ Create your own DIY balance board for Apple TV with Siri Remote.
 ## Why?
 Several years ago I broke my leg and I trained with a balance board to get fit again. It was a good training but very boring, because of this I always wanted to create my own balance board games. The Wii balance board was a great piece of hardware, but using it was not really challenging for my muscles. It is posible to create an own [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/). It would have been very unlikely that I would be able to create a game for the Wii balance board and I heard game console dev kits are really expensive and hard to get. 
 
-I am a Swift developer, I wanted to use a real "challenging" balance board and own an Apple TV. Siri Remote has a built-in accelerometer and gyroscope so this was the perfect solution for me. My goal was that everyone can build her own balance board with the balance board that is sufficient for you, your fitness level and your budget. I am currently working on some Apple TV games that support my DIY Apple TV Balance Board but would also be playable with only the Siri Remote. I will tweet about the progress as [@denisenepraunig](https://twitter.com/denisenepraunig) and will update this repository with information about my games.
+I am a Swift developer, I wanted to use a real "challenging" balance board and own an Apple TV. Siri Remote has a built-in accelerometer and gyroscope so this was the perfect solution for me. My goal was that everyone can build her own balance board with the balance board that is sufficient for you, your fitness level and your budget. I am currently working on an Apple TV games that support my DIY Apple TV Balance Board but would also be playable with only the Siri Remote. I will tweet about the progress as [@denisenepraunig](https://twitter.com/denisenepraunig).
 
-In this repository I will provide some background information and some starter projects so that you can make your own balance board games. A big shout out and thank you to [Paul Hudson](https://twitter.com/twostraws) how made it really easy get started with Apple TV and SpriteKit development: [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos) and [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit).
+In this repository I will provide some background information and a starter projects so that you can make your own balance board games. A big shout out and thank you to [Paul Hudson](https://twitter.com/twostraws) how made it really easy get started with Apple TV and SpriteKit development: [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos) and [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit).
 
 ## Instructions
 **I assume no liabiltiy when you accidentically step onto the plastic box, hurt yourself and break the Siri Remote!**
@@ -20,7 +20,9 @@ I mounted the lunch box onto the balance board with some tape. Using a velcro ta
 ![Lunch box mounted onto the balance board with tape](pictures/lunchbox-on-balance-board.jpg)
 
 ## Starter Projects
-TODO
+Currently there is one simple game example which you can control via the balance board or you hold the Siri Remote in your hands. Have a look inside the [starter projects](starter-projects/README.md).
+
+![bear fish game](pictures/bear-fish.png)
 
 ## Technical Details
 ### Siri Remote

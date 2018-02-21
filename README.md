@@ -1,5 +1,5 @@
 # Apple TV Balance Board
-Create your own DIY balance board for Apple TV with Siri Remote.
+Create your own DIY balance board for Apple TV with Siri Remote. The Siri Remote has a built-in accelerometer and gyroscope.
 
 
 ![DIY Apple TV Balance Board in Action](pictures/balance-board-in-action.png)
@@ -25,7 +25,7 @@ I mounted the lunch box onto the balance board with some tape. Using a velcro ta
 ![Lunch box mounted onto the balance board with tape](pictures/lunchbox-on-balance-board.jpg)
 
 ## Starter Projects
-Currently there is one simple game example which you can control via the balance board or you hold the Siri Remote in your hands. Have a look inside the [starter projects](starter-projects/README.md).
+Currently there is one simple game example which you can control via the balance board or you hold the Siri Remote in your hands (best experience when you turn it upside down). Have a look inside the [starter projects](starter-projects/README.md).
 
 ![bear fish game](pictures/bear-fish.png)
 

@@ -13,6 +13,7 @@
 		9F11B9C7203CA2850002EE24 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11B9C6203CA2850002EE24 /* GameViewController.swift */; };
 		9F11B9CA203CA2850002EE24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F11B9C8203CA2850002EE24 /* Main.storyboard */; };
 		9F11B9CC203CA2850002EE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F11B9CB203CA2850002EE24 /* Assets.xcassets */; };
+		9F96E1B9203DC60D0020749B /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F96E1B8203DC60D0020749B /* Snow.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F11B9C9203CA2850002EE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F11B9CB203CA2850002EE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F11B9CD203CA2850002EE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F96E1B8203DC60D0020749B /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9F11B9BE203CA2850002EE24 /* AppDelegate.swift */,
 				9F11B9C0203CA2850002EE24 /* GameScene.sks */,
 				9F11B9C4203CA2850002EE24 /* GameScene.swift */,
+				9F96E1B8203DC60D0020749B /* Snow.sks */,
 				9F11B9C6203CA2850002EE24 /* GameViewController.swift */,
 				9F11B9C8203CA2850002EE24 /* Main.storyboard */,
 				9F11B9CB203CA2850002EE24 /* Assets.xcassets */,
@@ -128,6 +131,7 @@
 			files = (
 				9F11B9CA203CA2850002EE24 /* Main.storyboard in Resources */,
 				9F11B9C1203CA2850002EE24 /* GameScene.sks in Resources */,
+				9F96E1B9203DC60D0020749B /* Snow.sks in Resources */,
 				9F11B9CC203CA2850002EE24 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

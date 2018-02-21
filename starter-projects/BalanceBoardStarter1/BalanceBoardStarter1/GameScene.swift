@@ -49,6 +49,9 @@ class GameScene: SKScene {
         
         addChild(player)
         
+        createBackground()
+        createSnow()
+        
         createScoreLabel()
         score = 0
         
@@ -99,12 +102,31 @@ class GameScene: SKScene {
         }
     }
     
+    func createBackground() {
+        
+        let background = SKSpriteNode(imageNamed: "background")
+        background.zPosition = -1
+        addChild(background)
+    }
+    
+    func createSnow() {
+    
+        if let particles = SKEmitterNode(fileNamed: "Snow") {
+    
+            particles.position = CGPoint(x: 0, y: 0)
+            particles.advanceSimulationTime(60)
+            particles.zPosition = 10
+            addChild(particles)
+        }
+    }
+    
     // MARK: HUD
     func createScoreLabel() {
         
         scoreLabel.zPosition = 1000
         scoreLabel.position.y = 450
-        scoreLabel.position.x = 800
+        scoreLabel.position.x = 750
+        scoreLabel.fontColor = .gray
         addChild(scoreLabel)
     }
     

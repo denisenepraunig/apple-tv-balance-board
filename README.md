@@ -27,7 +27,7 @@ I mounted the lunch box onto the balance board with some tape. Using a velcro ta
 ## Starter Projects
 Currently there is one simple game example which you can control via the balance board or you hold the Siri Remote in your hands (best experience when you turn it upside down). Have a look inside the [starter projects](starter-projects/README.md).
 
-![bear fish game](pictures/bear-fish.png)
+![bear fish game](pictures/bear-fish-new.png)
 
 ## Technical Details
 ### Siri Remote

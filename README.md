@@ -40,6 +40,10 @@ The sensor values from the Siri Remote can be read via a change-handler or by di
 
 One thing I noticed when debugging in the simulator is that the Siri Remote is registered as an extended game pad. Therefore I only test my apps on real hardware.
 
+Here you see the gravity x and y value ranges for the Siri Remote:
+
+![gravity values of Siri Remote](pictures/gravity-x-y.jpg)
+
 #### Reading sensor values via Motion Handler
 ```swift
 func registerMicroGamePadEvents(_ microGamePad: GCMicroGamepad) {

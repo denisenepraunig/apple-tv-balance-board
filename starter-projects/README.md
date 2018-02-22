@@ -6,6 +6,8 @@
 ![Bear catching fish](../pictures/bear-fish-new.png)
 In this little game example you control an ice bear and your aim is to catch the fish. You can control this game via the balance board or hold the Siri Remote in your hands. Currently there are no enemies implemented. After you catch a fish it will appear in a random position.
 
+> This game will NOT work in the simulator, you need a real Apple TV and Siri Remote!
+
 In the **AppDelegate.swift** you can find the registration of the Siri Remote as a game pad and you could also log the sensor values in:
 
 ```swift

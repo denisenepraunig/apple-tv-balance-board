@@ -1,5 +1,5 @@
 # Apple TV Balance Board
-Create your own DIY balance board for Apple TV with Siri Remote. The Siri Remote has a built-in accelerometer and gyroscope.
+Create your own DIY balance board for Apple TV with Siri Remote. The Siri Remote has a built-in accelerometer and gyroscope. I'd love to get your feedback about my project and wrote a [blog post](https://dev.to/denisenepraunig/diy-apple-tv-balance-board--2m9o) about it on [The Practical Dev](https://dev.to/).
 
 
 ![DIY Apple TV Balance Board in Action](pictures/balance-board-in-action.png)
@@ -85,9 +85,13 @@ As I am into the Apple ecoystem Apple TV was the logical choice for me. Siri Rem
 My inital idea was to create the balance board with the Arduino and using some sensors. The arduino was connected to my Mac via cable. Cables suck. Should I fidget around with Bluetooth? Or send the data via WiFi? The sensor values need to be translated to some "actions" - like keyboard clicks - and how should I develop my games? Web based? Python? Do I always have to connect my Macbook to the TV? Phew... I could maybe use my phone instead - it is wireless - but stepping on a expensive phone? I need to write an app, send the data via websocket to an HTML5 game, websockets - serverside - node - hosting this - phew... Raspberry Pi - hm - Linux, Python, connecting hardware, writing games in PyGame maybe?! I am not that proficient in those things. Sure, all things are solveable, but I wanted it to be more a "software project" than a hardware hacking thing and I wanted to use my existing skills.
 
 ### Why not MFT Challenge Disc?
-Back then I did not know that such a device existed - a balance board with games, but anyway, as I am a developer I wanted to make my own games and those [MFT balance boards](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc) are quite expensive. In Germany you can order a [version with bluetooth](https://www.amazon.de/MFT-Trainings-Therapieger%C3%A4t-Challenge-9005/dp/B01ENJARHE/ref=pd_sim_200_6?_encoding=UTF8&psc=1&refRID=XPPZQ1DP6JTNFASMPQ4Z) which has an app for iOS and Android.
+Back then I did not know that such a device existed - a balance board with games, but anyway, as I am a developer I wanted to make my own games and those [MFT balance boards](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc) are quite expensive. In Germany you can order a [version with bluetooth](https://www.amazon.de/MFT-Trainings-Therapieger%C3%A4t-Challenge-9005/dp/B01ENJARHE/ref=pd_sim_200_6?_encoding=UTF8&psc=1&refRID=XPPZQ1DP6JTNFASMPQ4Z) which has an app for iOS and Android'
+
+## PS
+PS: If you find a game on the Apple TV store which you can control only via tilting your Siri Remote left/right/up/down you could also control it via the balance board if you put the Siri Remote upside down.
 
 ## Link summary
+* [Blog post on The Practical Dev](https://dev.to/denisenepraunig/diy-apple-tv-balance-board--2m9o)
 * [DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
 * [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/)
 * [Paul Hudson](https://twitter.com/twostraws)

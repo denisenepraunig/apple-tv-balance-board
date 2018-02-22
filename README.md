@@ -84,6 +84,9 @@ As I am into the Apple ecoystem Apple TV was the logical choice for me. Siri Rem
 ### Why not Arduino/Raspberry Pi/...?
 My inital idea was to create the balance board with the Arduino and using some sensors. The arduino was connected to my Mac via cable. Cables suck. Should I fidget around with Bluetooth? Or send the data via WiFi? The sensor values need to be translated to some "actions" - like keyboard clicks - and how should I develop my games? Web based? Python? Do I always have to connect my Macbook to the TV? Phew... I could maybe use my phone instead - it is wireless - but stepping on a expensive phone? I need to write an app, send the data via websocket to an HTML5 game, websockets - serverside - node - hosting this - phew... Raspberry Pi - hm - Linux, Python, connecting hardware, writing games in PyGame maybe?! I am not that proficient in those things. Sure, all things are solveable, but I wanted it to be more a "software project" than a hardware hacking thing and I wanted to use my existing skills.
 
+### Why not Wii Remote?
+My colleague Ralf reminded me about the [Wii Remote](https://twitter.com/_rac01/status/966765788840513538) (or Wiimote for short) - he did a project where he controlled an Apple TV game via the Wii Remote. Long time ago I hooked up the Wii Remote with my laptop (Windows at this time) - but I don't know how long I had to fidget around until the bluetooth drivers worked... I could not connect the Wii Remote to my Macbook... Even today the word bluetooth gives me cold sweat - I will never do a hobby project which involves bluetooth ever again!. There was a software called [GlovePIE](https://glovepie.en.softonic.com/) for Windows which was able to "convert" certain commands - like if the Wii Remote was tilted 30° then send a KEY_LEFT event. I hacked together a solution where I [played Doom with the Wii Remote](https://www.youtube.com/watch?v=Li3dXuHR-UM).
+
 ### Why not MFT Challenge Disc?
 Back then I did not know that such a device existed - a balance board with games, but anyway, as I am a developer I wanted to make my own games and those [MFT balance boards](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc) are quite expensive. In Germany you can order a [version with bluetooth](https://www.amazon.de/MFT-Trainings-Therapieger%C3%A4t-Challenge-9005/dp/B01ENJARHE/ref=pd_sim_200_6?_encoding=UTF8&psc=1&refRID=XPPZQ1DP6JTNFASMPQ4Z) which has an app for iOS and Android'
 
@@ -94,13 +97,13 @@ PS: If you find a game on the Apple TV store which you can control only via tilt
 * [Blog post on The Practical Dev](https://dev.to/denisenepraunig/diy-apple-tv-balance-board--2m9o)
 * [DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
 * [DIY Wii like balance board](http://www.instructables.com/id/Make-your-own-Balance-Board-and-be-on-your-way-to/)
-* [Paul Hudson](https://twitter.com/twostraws)
-* [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos)
-* [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit)
+* [Paul Hudson](https://twitter.com/twostraws): [Hacking with tvOS](https://www.hackingwithswift.com/store/hacking-with-tvos) and [Dive into SpriteKit](https://www.hackingwithswift.com/store/dive-into-spritekit)
 * [Apple TV technical specifications](https://support.apple.com/kb/SP724?locale=en_US)
 * [Game Controller Programming Guide](https://developer.apple.com/library/content/documentation/ServicesDiscovery/Conceptual/GameControllerPG/IncorporatingControllersintoYourDesign/IncorporatingControllersintoYourDesign.html#//apple_ref/doc/uid/TP40013276-CH4-SW6)
 * [WWDC talk about Siri Remote and Game Controllers](https://developer.apple.com/videos/play/techtalks-apple-tv/4/)
 * [tvOS Games, Part 1: Using the Game Controller Framework](https://www.bignerdranch.com/blog/tvos-games-part-1-using-the-game-controller-framework/)
 * [GCMotion documentation](https://developer.apple.com/documentation/gamecontroller/gcmotion)
 * [GCAcceleration documentation](https://developer.apple.com/documentation/gamecontroller/gcacceleration)
+* [GlovePIE](https://glovepie.en.softonic.com/)
+* [Playing Doom with the Wii Remote](https://www.youtube.com/watch?v=Li3dXuHR-UM)
 * [MFT Challange disc](https://www.amazon.com/MFT-Challenge-Disc-Fitness-apparel/dp/B001V9KXCY/ref=sr_1_2?ie=UTF8&qid=1519146912&sr=8-2&keywords=mft+disc)

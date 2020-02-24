@@ -1,8 +1,7 @@
 # Apple TV Balance Board
 Create your own DIY balance board for Apple TV with Siri Remote. The Siri Remote has a built-in accelerometer and gyroscope. I'd love to get your feedback about my project and wrote a [blog post](https://dev.to/denisenepraunig/diy-apple-tv-balance-board--2m9o) about it on [The Practical Dev](https://dev.to/).
 
-
-![DIY Apple TV Balance Board in Action](pictures/balance-board-in-action.png)
+[![See the DIY Apple TV Balance Board in Action](http://img.youtube.com/vi/5PygsgZDwFk/0.jpg)](https://www.youtube.com/watch?v=5PygsgZDwFk)
 
 [See the DIY Apple TV Balance Board in Action](https://www.youtube.com/watch?v=5PygsgZDwFk)
 

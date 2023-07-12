@@ -43,7 +43,7 @@ Here you see the gravity x and y value ranges for the Siri Remote:
 
 ![gravity values of Siri Remote](pictures/gravity-x-y.jpg)
 
-#### Reading sensor values via Motion Handler
+#### Reading Sensor Values via Motion Handler
 ```swift
 func registerMicroGamePadEvents(_ microGamePad: GCMicroGamepad) {
 
